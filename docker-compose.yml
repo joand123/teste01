@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   flask:
-    image: flask:Aplicativo-web-1
+    image: flask:teste01
     build: .
     volumes:
       - ./flask:/flask
